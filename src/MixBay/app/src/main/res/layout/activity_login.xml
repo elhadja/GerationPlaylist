@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Application MixBay
+ *
+ * @authors E. Bah, N. Deguillaume, L. Jolliet, J. Loison, P. Vigneau
+ * @version 1.0
+ * Génération de playlistes musicales pour un groupe d'utilisateurs
+ * PdP 2019-2020 Université de Bordeaux
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="presentation.LoginActivity"
+    android:background="@color/windowBackground">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/headphones_640"
+        android:contentDescription="@string/app_name"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/btnSpotifyLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_with_spotify"
+            android:layout_marginBottom="20dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:background="@drawable/rounded_button_green"
+            android:onClick="onClickSpotify" />
+
+        <Button
+            android:id="@+id/btnDeezerLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connect_with_deezer"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:padding="15dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/rounded_button_grey"
+            android:textColor="@color/windowBackground" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+

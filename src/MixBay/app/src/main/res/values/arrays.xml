@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="algorithms">
+        <item>@string/algo_least_misery</item>
+        <item>@string/algo_fairness</item>
+        <item>@string/algo_most_pleasure</item>
+        <item>@string/algo_random</item>
+    </string-array>
+</resources>
