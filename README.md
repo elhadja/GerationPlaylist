@@ -13,9 +13,9 @@ Lecture de ces playlistes, avec possibilité de skipper des titres
 Possibilité de récupération des logs d'écoute pour évaluation des différents algorithmes
 
 # Participants
-Elhadj Amadou BAH
-Jules Loison
-Louis Jolliet
-Nicolas Deguillaume
-Pierre Hanna
-Paul Vigneau
+- Elhadj Amadou BAH
+- Jules Loison
+- Louis Jolliet
+- Nicolas Deguillaume
+- Pierre Hanna
+- Paul Vigneau
