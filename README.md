@@ -17,3 +17,6 @@ Possibilité de récupération des logs d'écoute pour évaluation des différen
 - Nicolas Deguillaume
 - Pierre Hanna
 - Paul Vigneau
+
+# Encadrants
+- [Philippe Narbel] (https://www.labri.fr/index.php?n=Annuaires.Profile&id=Narbel_ID1084917757)
