@@ -1,5 +1,3 @@
-Cette application a été réalisé dans le cadre d'un projet en Master 1 informatique à l'université de Bordeaux
-
 # Description
 Chaque utilisateur d'un service de streaming (Deezer, Spotify par ex) peut se voir recommander des titres musicaux selon ses propres goûts. Toutefois, lorsque plusieurs utilisateurs veulent écouter de la musique au même endroit, il n'y a pas d'autre choix que d'utiliser le compte d'un seul de ces utilisateurs, et donc d'imposer les goûts de cet utilisateur aux autres personnes présentes.
 
